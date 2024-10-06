@@ -1,0 +1,40 @@
+.preamble {
+    padding-bottom: 10px; /* 增加底部內間距，讓內容和分隔線不會緊貼 */
+    margin-bottom: 20px;  /* 增加外間距，使分隔線和下方對話有間距 */
+    border-bottom: 2px solid #444; /* 分隔線，顏色和粗細可以根據需要調整 */
+}
+
+/* 分頁控制按鈕樣式 */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.pagination-button.active {
+    background-color: #3b82f6;  /* 藍色按鈕 */
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.pagination-button:hover {
+    color: #3b82f6;
+    transition: color 0.2s;
+}
+
+.pagination-button:focus {
+    outline: none;
+}
+
+/* 上一頁和下一頁按鈕樣式 */
